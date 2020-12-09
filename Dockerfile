@@ -1,13 +1,13 @@
-FROM node:12.10.0
+FROM node:14.15.1
 
 LABEL "com.github.actions.name"="Puppeteer Headful"
 LABEL "com.github.actions.description"="A GitHub Action / Docker image for Puppeteer, the Headful Chrome Node API"
 LABEL "com.github.actions.icon"="layout"
 LABEL "com.github.actions.color"="blue"
 
-LABEL "repository"="https://github.com/mujo-code/puppeteer-headful"
-LABEL "homepage"="https://github.com/mujo-code/puppeteer-headful"
-LABEL "maintainer"="Jacob Lowe"
+LABEL "repository"="https://github.com/positive-solutions/puppeteer-headful"
+LABEL "homepage"="https://github.com/positive-solutions/puppeteer-headful"
+LABEL "maintainer"="Shai Rubinstein"
 
 RUN  apt-get update \
      # See https://crbug.com/795759
